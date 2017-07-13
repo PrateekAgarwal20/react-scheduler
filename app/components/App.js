@@ -1,15 +1,13 @@
 import React from 'react';
+import SchedulerContainer from '../containers/SchedulerContainer';
 
-class App extends React.Component {
-  constructor(props){
-    super(props)
-  }
-
-  render(){
+const App = () => {
     return(
-      <div>Your App Here</div>
-    )
-  }
-}
+        <div>
+            <h1>React Scheduler</h1>
+            <SchedulerContainer />
+        </div>
+  );
+};
 
 export default App;
